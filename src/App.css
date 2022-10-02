@@ -1,0 +1,69 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  /* background-color: #282c34; */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pokemon-details-container {
+  flex-grow: 1;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.search-form {
+  margin: 0.5rem;
+  width: 100%;
+}
+
+.search-input {
+  width: 60%;
+  margin-right: 0.5rem;
+  height: 2rem;
+  padding: 0;
+}
+
+.search-button {
+  height: 2.3rem;
+  cursor: pointer;
+}
+
+.error-container {
+  display: flex;
+  height: 50%;
+  width: 50%;
+  min-width: 300px;
+  min-height: 200px;
+  border: 1px solid #282c34;
+  border-radius: 0.5rem;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+}
+
+.details-label {
+  font-weight: 700;
+}
+
+.pokemon-pokedex {
+  width: 25rem;
+  margin: 0.5rem;
+}
+
+.pokemon-details {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
